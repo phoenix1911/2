@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>delivery</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.delivery.control.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CourierAddServlet</servlet-name>
+    <servlet-class>com.delivery.control.CourierAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourierDeleteServlet</servlet-name>
+    <servlet-class>com.delivery.control.CourierDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourierFindAllServlet</servlet-name>
+    <servlet-class>com.delivery.control.CourierFindAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourierFindByIdServlet</servlet-name>
+    <servlet-class>com.delivery.control.CourierFindByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourierUpdateServlet</servlet-name>
+    <servlet-class>com.delivery.control.CourierUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReceiverAddServlet</servlet-name>
+    <servlet-class>com.delivery.control.ReceiverAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReceiverFindAllServlet</servlet-name>
+    <servlet-class>com.delivery.control.ReceiverFindAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReceiverFindByIdServlet</servlet-name>
+    <servlet-class>com.delivery.control.ReceiverFindByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReceiverDeleteServlet</servlet-name>
+    <servlet-class>com.delivery.control.ReceiverDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReceiverUpdateServlet</servlet-name>
+    <servlet-class>com.delivery.control.ReceiverUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodAddServlet</servlet-name>
+    <servlet-class>com.delivery.control.GoodAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodFindAllServlet</servlet-name>
+    <servlet-class>com.delivery.control.GoodFindAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodFindByIdServlet</servlet-name>
+    <servlet-class>com.delivery.control.GoodFindByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodDeleteServlet</servlet-name>
+    <servlet-class>com.delivery.control.GoodDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodUpdateServlet</servlet-name>
+    <servlet-class>com.delivery.control.GoodUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodfindWeiServlet</servlet-name>
+    <servlet-class>com.delivery.control.GoodfindWeiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodFaServlet</servlet-name>
+    <servlet-class>com.delivery.control.GoodFaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodfindYiServlet</servlet-name>
+    <servlet-class>com.delivery.control.GoodfindYiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodWanServlet</servlet-name>
+    <servlet-class>com.delivery.control.GoodWanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodFindWanServlet</servlet-name>
+    <servlet-class>com.delivery.control.GoodFindWanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodFindYu</servlet-name>
+    <servlet-class>com.delivery.control.GoodFindYu</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>CourierAddServlet</servlet-name>
+    <url-pattern>/courieradd.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourierDeleteServlet</servlet-name>
+    <url-pattern>/courierdelete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourierFindAllServlet</servlet-name>
+    <url-pattern>/courierfindall</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourierFindByIdServlet</servlet-name>
+    <url-pattern>/courierfindbyid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourierUpdateServlet</servlet-name>
+    <url-pattern>/courierupdate.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReceiverAddServlet</servlet-name>
+    <url-pattern>/receiveradd.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReceiverFindAllServlet</servlet-name>
+    <url-pattern>/receiverfindall</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReceiverFindByIdServlet</servlet-name>
+    <url-pattern>/receiverfindbyid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReceiverDeleteServlet</servlet-name>
+    <url-pattern>/receiverdelete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReceiverUpdateServlet</servlet-name>
+    <url-pattern>/receiverupdate.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodAddServlet</servlet-name>
+    <url-pattern>/goodadd.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodFindAllServlet</servlet-name>
+    <url-pattern>/goodfindall</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodFindByIdServlet</servlet-name>
+    <url-pattern>/goodfindbyid.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodDeleteServlet</servlet-name>
+    <url-pattern>/gooddelete.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodUpdateServlet</servlet-name>
+    <url-pattern>/goodupdate.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodfindWeiServlet</servlet-name>
+    <url-pattern>/goodfindwei.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodFaServlet</servlet-name>
+    <url-pattern>/goodfa.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodfindYiServlet</servlet-name>
+    <url-pattern>/goodfindyi.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodWanServlet</servlet-name>
+    <url-pattern>/goodwan.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodFindWanServlet</servlet-name>
+    <url-pattern>/goodfindwan.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodFindYu</servlet-name>
+    <url-pattern>/goodfindyu.do</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
